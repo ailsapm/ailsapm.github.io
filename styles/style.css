@@ -1,0 +1,100 @@
+body{
+background-color: lightblue;
+color: green;
+text-align: center;
+
+h1 {color: purple;
+text-align: center;}
+font-size= 42px;
+}
+
+
+h4   {text-align: left;}
+
+.keyword{text-decoration: underline bold;
+font-weight: bold;}
+
+.bullet{
+list-style-type:square;
+
+}
+
+
+
+@media(min-width:768px){
+
+
+.profContainer{
+background-color:lightgreen;
+width:100%; 
+display: flex;
+justify-content:left;
+
+}
+
+.skillContainer{
+background-color:pink;
+width:100%; 
+display: flex;
+justify-content:left;
+
+}
+
+.eduContainer{
+background-color:lightgreen;
+width:100%; 
+display: flex;
+justify-content:left;
+
+}
+
+
+
+.experienceContainer{
+background-color:pink;
+width:100%; 
+display: flex;
+justify-content:left;
+
+}
+
+
+.intContainer{
+background-color:lightgreen;
+width:100%; 
+display: flex;
+justify-content:left;
+
+}
+
+
+}
+
+
+.expDate{
+background-color: lightgreen;
+flex:1;
+
+
+}
+.expTitle{
+background-color: lightpurple;
+flex:4;
+
+
+}
+
+.expEmployer{
+background-color: lightgreen;
+flex:1;
+
+
+}
+
+
+
+
+
+
+
+}
